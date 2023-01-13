@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Academlo Store || Group 3A </title>
+</head>
+
+<body>
+    <div class="loading">
+        <div class="load">  
+            <div class="load" id="load">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.92 56.48" class="load__gif">
+                    <title>Academlo Logo</title>
+                    <g>
+                        <g>
+                            <path
+                                d="M24.45,56.48,0,42.36V14.12L24.46,0,48.92,14.12V42.36ZM1.89,41.26l22.56,13L47,41.26v-26l-22.56-13-22.56,13Z">
+                            </path>
+                            <path
+                                d="M28.58,15.39H25.16L35.78,36H31.49L20.67,15.71,8.23,38.82H18.94l3-5.43h-3.4l-1.47,2.54h-4l2.69-5.09H25.85l4.28,8H40.67ZM17.23,28.21l3.57-6.6,3.57,6.6Z">
+                            </path>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+        </div>
+    </div>
+    <header class="header observer" id="principal">
+        <nav class="navbar"> 
+            <div class="nav__container">
+                <div class="navbar__menu">
+                    <a href="#" class="nav__logo">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.92 56.48" 
+                            class="nav__logo-icon">
+                            <title>Academlo Logo</title>
+                            <g>
+                                <g>
+                                    <path
+                                        d="M28.58,15.39H25.16L35.78,36H31.49L20.67,15.71,8.23,38.82H18.94l3-5.43h-3.4l-1.47,2.54h-4l2.69-5.09H25.85l4.28,8H40.67ZM17.23,28.21l3.57-6.6,3.57,6.6Z">
+                                    </path>
+                                </g>
+                            </g>
+                        </svg>STORE
+                    </a> 
+                    <ul class="navbar__menu--index">
+                        <li><a href="#principal" class="nav__home">Home</a></li>
+                        <li><a href="#products" class="nav__products">Products</a></li>
+                    </ul>
+                </div>
+                <div class="navbar__icons">
+                    <a href="#"><i class='bx bx-moon'></i></a>
+                    <a href="#"><i class='bx bx-shopping-bag'></i>
+                        <div class="cart__count">0</div>
+                    </a>
+                    <a href="#"><i class='bx bx-grid-alt'></i></a>
+                </div>
+            </div>
+        </nav>
+        <section class="header__content">
+            <div class="header__image">
+                <img src="./assets/images/home.png" alt="home">
+            </div>
+            <div class="header__description">
+                <h1 class="header__title">New Sweatshirt<br>COLLECTIONS 2022 </h1>
+                <p class="header__text ">Latest arrival of the new Hanes Midweight Crewneck sweatshirt imported from the
+                    2022 series, with a modern design.</p>
+                <h3 class="header__price">PEN 14.00</h3>
+                <div class="header__buttons">
+                    <a href="#">Discover</a>
+                    <a href="#products" class="added__element">ADD TO CART</a>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main class="main observer" id="products">
+
+        <section class="main__filter">
+            <div class="filter filter__showAll">
+                <h3>Show All</h3>
+                <p>show all products</p>
+            </div>
+            <div class="filter filter__hoodie">
+                <h3>Hoddies</h3>
+                <p>1 products</p>
+            </div>
+            <div class="filter filter__shirt">
+                <h3>Shirts</h3>
+                <p>1 products</p>
+            </div>
+            <div class="filter filter__sweatshirts">
+                <h3>Sweetshirts</h3>
+                <p>1 products</p>
+            </div>
+        </section>
+
+        <section class="main__products">
+        </section>
+
+        <section class="main__shoppingCart">
+            <a href="#"><i class='bx bx-x'></i></a>
+            <h1>My Cart</h1>
+            <div class="added__elements">
+            </div>
+            <div class="total__sum">
+                <p class=" total__sum--items">Items 0</p>
+                <p class="total__sum--price">PEN 0.00</p>
+            </div>
+            <div class="checkout">
+                <a href="#">Buy Now</a>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <div class="footer__content">
+            <section class="footer__item footer__ourInformation">
+                <h2>Our Information</h2>
+                <p class="text__main">Perú - Lima</p>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d222468.77841049273!2d-76.84370483528436!3d-12.059899444865426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2spe!4v1673326950808!5m2!1ses-419!2spe"
+                    width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+            <section class="footer__item footer__aboutUs">
+                <h2>About Us</h2>
+                <a class="text__main" href="#">Support Center</a>
+                <a class="text__main" href="#">Costumer Support</a>
+                <a class="text__main" href="#">About Us</a>
+                <a class="text__main" href="#">Copy Rigth</a>
+            </section>
+            <section class="footer__item footer__product">
+                <h2>Product</h2>
+                <a class="text__main" href="#">Hoodies</a>
+                <a class="text__main" href="#">Shirts</a>
+                <a class="text__main" href="#">Sweatshirts</a>
+            </section>
+            <section class="footer__item footer__social">
+                <h2>Social</h2>
+                <div>
+                    <a href="#"><i class='text__main bx bxl-facebook'></i></a>
+                    <a href="#"><i class='text__main bx bxl-twitter'></i></a>
+                    <a href="#"><i class='text__main bx bxl-instagram'></i></a>
+                </div>
+            </section>
+        </div>
+        <section class="text__main copyRigth">
+            <p>© Academlo. All rigths reserved</p>
+        </section>
+    </footer>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
